@@ -1,0 +1,877 @@
+/* GENERAL */
+
+body{
+	font-family: 'Karla', 'HelveticaNeueArabic', 'NeueHelveticaW01', 'Helvetica', 'HelveticaWorld', 'Roboto', 'Arial', sans-serif;
+	color: #424242;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+}
+
+a, a:hover {
+	color: #6A1B9A;
+}
+
+::placeholder{
+	font-style: italic;
+}
+
+.bg-light {
+	background: #f1eef3 !important;
+}
+
+#main {
+	min-height: 100vh;
+}
+
+.spaced{
+	letter-spacing: .08em;
+}
+
+.btn-primary{
+	background: #E53935;
+	color: #fff !important;
+	border-color: #E53935;
+	/* font-weight: 700; */
+	border-radius: 24px;
+}
+
+.btn-primary:hover, .btn-primary:active {
+	background: #CC322F;
+	border-color: #CC322F;
+}
+
+.btn-primary.focus, .btn-primary:focus, .btn-outline-primary.focus, .btn-outline-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(229,57,53,.5);
+}
+
+.btn-primary, .btn-outline-primary {
+	padding: .625rem 1.25rem;
+}
+
+.btn-outline-primary{
+	border-color: #E53935;
+	color: #E53935;
+	/* font-weight: 700; */
+	border-radius: 24px;
+	border-width: 2px;
+}
+
+.btn-outline-primary:hover {
+	border-color: #CC322F;
+	background: #CC322F;
+	color: #fff;
+}
+
+.btn-outline-secondary{
+	border-color: #6A1B9A;
+	color: #6A1B9A;
+}
+
+.btn-outline-secondary.btn-outline-secondary-gray {
+	border-color: #808080;
+	color: #808080;
+}
+
+.btn-outline-secondary.btn-outline-secondary-gray:hover {
+	border-color: #808080 !important;
+	background: #808080 !important;
+	color: #fff !important;
+}
+
+.btn-outline-secondary.focus, .btn-outline-secondary:focus{
+  box-shadow: 0 0 0 0.2rem rgba(106,27,154,.5);
+}
+
+.btn-outline-secondary:hover, .btn-outline-secondary:active {
+	background: #6A1B9A;
+	color: #fff;
+	border: 1px solid #6A1B9A;
+}
+
+.btn-outline-primary:hover{
+	background: #E53935;
+	border-color: #E53935;
+}
+
+@media screen and (max-width: 767px){
+	.btn-block-sm-only,  {
+		width: 100%;
+	}	
+}
+
+@media screen and (max-width: 567px){
+	.btn-block-xs-only,  {
+		width: 100%;
+	}
+}
+
+.alert-warning .btn-outline-dark{
+	color: #856404;
+	border-color: #856404;
+	background: transparent;
+}
+
+.alert-warning .btn-dark{
+	color: #fff3cd;
+	border-color: #856404;
+	background: #856404;
+}
+
+.b-purple, .b-purple:hover {
+	color: #6A1B9A;
+}
+
+.b-red, .b-red:hover {
+	color: #E53935;
+}
+
+#envivobcn-logo {
+	cursor: pointer;
+}
+
+.list-none {
+	list-style: none;
+	-webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0;
+}
+
+/* COLORS */
+
+.gray {
+	color: #cdcdcd;
+}
+
+/* HEADER */
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(0, 0, 0);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#main-nav .nav-link {
+	/* text-transform: uppercase;
+	letter-spacing: 0.09em; */
+	color: #000;
+	font-size: .9rem;
+	font-weight: 900;
+}
+
+@media (min-width: 768px){
+	.navbar-expand-md .navbar-nav .nav-link {
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+	#mainNav ul li a:last-child {
+		padding-right: 0 !important;
+	}
+}
+
+/* HOME */
+
+#intro{
+	background: url('../img/bcnenvivo-hero.JPG');
+	background-size: cover;
+	background-position: center;
+}
+
+#home-headline {
+	line-height: 1.1em;
+}
+
+@media only screen and (max-width: 767px){
+	h1 {
+		font-size: 2rem;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+}
+				
+@media only screen and (min-width: 768px){
+	#intro{
+		min-height: 420px;
+	}
+}
+
+@media only screen and (min-width: 568px){
+	.btn-home, #view-all-place {
+		width: 240px;
+	}
+	#view-all-places {
+		margin: 0 auto;
+	}
+}
+
+#recommended-places .place-list {
+	min-height: 280px;
+}
+
+#recommended-musicGenres {
+	background: url('../img/generos-musicales-directo-barcelona.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#recommended-musicGenres .music-genre-item {
+	border-color: #fff;
+}
+
+#recommended-musicGenres .music-genre-item h3 {
+	color: #fff;
+}
+
+#recommended-musicGenres .music-genre-item:hover {
+	background: #fff;
+}
+
+#recommended-musicGenres .music-genre-item:hover > h3 {
+	color: #212121 !important;
+}
+
+/* PLACES */
+
+#places-results, #place-details {
+	min-height: 500px;
+}
+
+#place-description{
+	font-size: 1.15rem;
+}
+
+@media only screen and (min-width: 768px){
+	#place-description {
+		font-size: 1.25rem;
+	}
+}
+
+#place-img img {
+	width: 100%;
+}
+
+#navbar-search-places:hover{
+	text-decoration: none;
+}
+
+.place-list {
+	list-style: none;
+	-webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0;
+}
+
+.place-card-content .place-card-name, .place-card-name a, .place-card-name a:hover {
+	font-weight: 700;
+	color: #000;
+	font-size: 1.25rem;
+	text-decoration: none;
+}
+
+.place-card-name:hover {
+	text-decoration: none;
+}
+
+#places-filters-mob{
+	z-index: 9991;
+}
+
+#places-filters-mob button {
+	font-size: 1rem;
+	padding: 1rem;
+	border-radius: 32px;
+	width: 240px;
+	margin: 0 auto 1.5rem;
+}
+
+.place-has-program-today {
+	border: 1px solid #E53935;
+	background: transparent;
+	color: #E53935;
+	border-radius: 12px;
+	font-size: .8rem;
+	padding: .4em .75em .45em .70em;
+	text-transform: none !important;
+	font-weight: 500;
+}
+
+[id*="reset"], [id*="reset"]:hover {
+	color: #6c757d;
+}
+
+#resetFilters {
+	color: #979797;
+	text-decoration: underline;
+}
+
+#resetFilters:hover {
+	color: #979797 !important;
+}
+
+#resetFilters i {
+	border: 1px solid #979797 !important;
+	border-radius: 100%;
+	width: 1.25rem;
+	height: 1.25rem;
+	line-height: 1.15rem;
+	font-size: .65rem;
+}
+
+#places-filters input {
+	padding: 0;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    cursor: pointer;
+}
+
+.form-check-input:checked ~ .form-check-label .places-checkmark:before {
+	content: '';
+	width: .9rem;
+	height: .9rem;
+	border: 2px solid #fff;
+	background: #E53935;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+
+#places-filters .form-check-label {
+	cursor: pointer;
+}
+
+.places-checkmark {
+	position: absolute;
+	top: .25rem;
+	left: 0;
+	width: 1rem;
+	height: 1rem;
+	border: 1px solid #cdcdcd;
+}
+
+@media only screen and (min-width: 768px){
+	.place-list-no-results-wrapper {
+		position: fixed;
+		left: 50%;
+		top: 50%;
+		transform: translateX(-50%) translateY(-30%);
+	}
+}
+
+.place-meta {
+	font-size: .9rem;
+	color: #979797;
+	margin-bottom: .5rem;
+}
+
+/* PLACE DETAILS */
+
+@media screen and (max-width: 767px){
+	.contained-section {
+		padding-left: .5rem;
+		padding-right: .5rem;
+	}
+}
+
+#place-details .breadcrumb-item , #place-details .breadcrumb-item a, #place-details .breadcrumb-item a:hover, .breadcrumb-item+.breadcrumb-item::before {
+	color: #979797;
+	font-size: .85rem;
+}
+
+@media only screen and (min-width: 1200px){
+	#place-img{
+		position: relative;
+		overflow: hidden;
+		height: 500px;
+	}
+
+	#place-img img{
+		position: relative;
+		transform: translateY(-10%);
+	}
+}
+
+/* .programed-days:first-letter { text-transform: capitalize; } */
+
+.place-social { margin-left: 1.5rem; }
+
+.place-section-heading, .place-list-filter-heading {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.place-program-heading, .place-filter-list-heading {
+	font-weight: 700;
+}
+
+.place-filter-list-heading {
+	margin-bottom: 0;
+	color: #000;
+	text-transform: uppercase;
+	font-size: .8rem;
+	letter-spacing: .1em;
+}
+
+.place-program-heading {
+	font-size: 1rem;
+	margin-bottom: .5em !important;
+	color: #979797;
+	font-weight: 700;
+}
+
+.place-hours-open td {
+	border: none !important;
+	padding: .5em;
+}
+
+.place-hours-open tr td:first-child {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#place-hours-open:hover{
+	text-decoration: none;
+}
+
+.music-genre-label {
+	border: 1px solid #6A1B9A;
+	padding: .25rem .5rem;
+	color: #6A1B9A;
+	border-radius: 6px;
+}
+
+#place-go-out {
+	padding: .5rem 1rem !important;
+	border-radius: 22px;
+}
+
+/* .place-agenda-first-day {
+	text-transform: capitalize;
+} */
+
+#place-contact-list a, #place-contact-list a:hover {
+	color: #6A1B9A;
+}
+
+#place-contact-list a:focus, .place-hours-open:focus {
+	box-shadow: 0 0 0 0.2rem rgba(106,27,154,.5);
+}
+
+.place-agenda-day {
+	padding: 0 .4rem 0 0;
+	display: inline-block;
+}
+
+.place-agenda-day:first-child {
+	margin-left: 0;
+}
+
+
+agm-map{
+	height: 400px;
+	width: 100%;
+}
+
+#place-detail-more {
+	position: relative;
+	overflow: hidden;
+}
+
+#place-detail-more #place-detail-more-bg {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	filter: blur(2px);
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -ms-filter: blur(3px);
+  width: 100%;
+	position: absolute;
+	background-color: #212121;
+	left: 0;
+	opacity: .3;
+}
+
+@media screen and (max-width: 767px){
+	#place-detail-more #place-detail-more-bg {
+		transform: scale(2);
+		-webkit-transform: scale(2);
+		-moz-transform: scale(2);
+		-ms-transform: scale(2);
+	}
+}
+
+/* DISTRICTS */
+
+#district-list-head {
+	padding: 5rem 0 6rem;
+	background: url('../img/zonas-de-barcelona-con-musica-en-directo.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#district-results {
+	min-height: 500px;
+}
+
+.district-card, .music-genre-card {
+	margin-bottom: 1rem;
+	text-decoration: none;
+}
+
+.district-card:hover, .music-genre-card:hover {
+	text-decoration: none;
+}
+
+.district-list li a {
+	background-size: cover !important;
+	background-position: center !important;
+}
+
+.district-list #ciutat-vella a {
+	background: url(../img/district-ciutat-vella.jpg);
+}
+
+.district-list #gracia a {
+	background: url(../img/district-gracia.jpg);
+}
+
+.district-list #sants-montjuic a {
+	background: url(../img/district-montjuic.jpg);
+}
+
+.district-list #sant-marti a {
+	background: url(../img/district-sant-marti.jpg);
+}
+
+.district-list #les-corts a {
+	background: url(../img/district-les-corts.jpg);
+}
+
+.district-list #eixample a {
+	background: url(../img/district-eixample.jpg);
+}
+
+.district-list #sarria-sant-gervasi a {
+	background: url(../img/district-sarria.jpg);
+}
+
+@media screen and (min-width: 768px){
+	.district-card, .music-genre-card {
+		margin: 1rem 0;
+	}
+	.district-card {
+		min-height: 240px;		
+	}
+}
+
+@media screen and (max-width: 767px){
+	.district-card {
+		min-height: 180px;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.district-card {
+		min-height: 240px;
+	}
+}
+
+/* MUSIC GENRES */
+
+#music-genre-list-head {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+	background: url('../img/generos-musicales-directo-barcelona.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#music-genre-results {
+	min-height: 280px;
+	padding: 1.5rem 0 2.5rem;
+}
+
+@media screen and (min-width: 767px){
+	#music-genre-results {
+		padding: 4rem 0 5rem;
+	}
+}
+
+.music-genre-item {
+	border: 2px solid #E53935;
+	margin: .5rem;
+	padding: .5rem;
+	box-sizing: border-box;
+	border-radius: 26px;
+	width: 148px;
+	transition: all .2s;
+	text-align: center;
+}
+
+.music-genre-item:hover {
+	background: #E53935;
+}
+
+.music-genre-item h3 {
+	color: #E53935;
+	font-size: 1.15rem;
+	font-weight: 400 !important;
+	margin-bottom: .25rem;
+	transition: all .2s;
+}
+
+.music-genre-item:hover > h3 {
+	color: #FFFFFF !important;	
+}
+
+@media screen and (max-width: 576px){
+	.music-genre-item {
+		width: 155px;
+		margin: .25rem;
+	}
+	.music-genre-item {
+		font-size: 1rem;
+	}
+}
+
+.music-genre-list a:hover {
+	color: #E53935;
+	text-decoration: none;
+}
+
+/* ABOUT */
+
+#about-text p {
+	font-size: 1.25rem;
+}
+
+#about-text h1 {
+		font-size: 2.5rem;
+		line-height: 1.15em;
+		margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 767px){
+	#about-text h1 {
+		font-size: 4rem;
+		margin-top: 1rem;
+		margin-bottom: 3rem;
+	}
+}
+
+/* CONTACT */
+
+.contact-option{
+	border-top: 1px solid #dee2e6!important;
+}
+
+.contact-option button {
+	display: block;
+	width: 100%;
+	white-space: unset !important;
+	text-align: left !important;
+	color: #6A1B9A;
+}
+
+.contact-option button:hover, .contact-option button:active, .contact-option button:focus {
+	color: #6A1B9A;
+	text-decoration: none;
+}
+
+/* FOOTER */
+footer a, footer a:hover {
+	color: #c8c8c8;
+}
+
+footer {
+	background: #212121;
+	font-size: .8rem !important;
+}
+
+@media only screen and (min-width: 768px){
+	#brand-year{
+		line-height: 24px;
+	}
+}
+
+#brand-year{
+	color: #c8c8c8;
+}
+
+.sitemap-header {
+	text-transform: uppercase;
+	letter-spacing: .09em;
+	color: #fff;
+}
+
+@media only screen and (min-width: 768px){
+	.sitemap-header {
+		pointer-events: none;
+	}
+}
+
+/* OFF */
+
+#login-page {
+	min-height: 580px;
+	position: relative;
+}
+
+#login-page #form-wrapper {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-65%);
+	-webkit-transform: translateY(-65%);
+	-moz-transform: translateY(-65%);
+	width: 100%;
+	left: 0;
+}
+
+.program_checkbox {
+	margin-left: 1rem;
+}
+
+.place-delete-confirm {
+	z-index: 9999;
+}
+
+#deleteModal{
+	background: rgba(0,0,0,0.5);
+}
+
+#deleteModal .modal-dialog{
+	top: 25%;
+}
+
+#off-menu i {
+	font-size: 2rem;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin: 0;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #28a745;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #28a745;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#publish-toggle:first-child {
+	line-height: 34px;
+}
+
+#off-menu .item:hover {
+	cursor: pointer;
+}
+
+#off-menu .item:hover i {
+	color: #343a40;
+}
+
+.publish-toggle i {
+	line-height: 34px;
+}
+
+.list-group-item {
+	border-radius: 0;
+	margin-top: -1px;
+}
+
+.list-group-item:first-child {
+	border-top-right-radius: : .25rem;
+	border-top-left-radius: : .25rem;
+	margin-top: -1px;
+}
+
+.list-group-item:last-child {
+	border-bottom-right-radius: : .25rem;
+	border-bottom-left-radius: : .25rem;
+	margin-top: -1px;
+}
+
+.input-group-prepend .input-group-text {
+	width: 120px;
+}
+
+.agenda-date, .agenda-date button {
+	border: 1px solid #343a40;
+	color: #343a40;
+}
+
+.agenda-date button {
+	border: 1px solid #979797;
+	color: #979797;
+  border-radius: 100%;
+  padding: .25rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  cursor: pointer;
+  transition: all .2s;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+}
+
+.agenda-date button:hover {
+	border: 1px solid #dc3545;
+	color: #dc3545;
+}
+
