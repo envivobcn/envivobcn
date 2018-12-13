@@ -7,7 +7,7 @@ var http = require('http');
 var server = http.createServer(app);
 
 
-mongoose.connect('mongodb://sergioapi:Eaurouge89@ds221003.mlab.com:21003/bcnenvivo', (err, res) => {
+mongoose.connect('mongodb://localhost:27017/envivobcn', (err, res) => {
 	if(err){
 		throw err;
 	}else{
