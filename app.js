@@ -17,7 +17,6 @@ var place_type_routes = require('./routes/place_type');
 var place_img_routes = require('./routes/place_img');
 
 app.use(express.json());
-app.use(express.urlencoded({extended:false}));
 
 // Headers
 app.use(cors());
