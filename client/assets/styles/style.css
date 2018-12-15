@@ -28,7 +28,7 @@ a, a:hover {
 }
 
 #main {
-	min-height: 100vh;
+	min-height: calc(100vh - 56px);
 }
 
 .spaced{
@@ -152,10 +152,6 @@ a, a:hover {
 
 /* HEADER */
 
-header {
-	height: 56px;
-}
-
 #main-nav .nav-link {
 	/* text-transform: uppercase;
 	letter-spacing: 0.09em; */
@@ -226,7 +222,7 @@ header {
 	position: fixed;
 	top: 10px;
 	right: 15px;
-	z-index: 9999;
+	z-index: 990;
 }
 
 .navbar-toggler:focus {
@@ -477,7 +473,7 @@ header {
 
 /* PLACE DETAILS */
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 992px){
 	.contained-section {
 		padding-left: .5rem;
 		padding-right: .5rem;
@@ -774,8 +770,23 @@ agm-map{
 
 /* CONTACT */
 
-.contact-option{
-	border-top: 1px solid #dee2e6!important;
+@media screen and (min-width: 768px){
+	#contact-section .container {
+		min-height: 600px;
+		position: relative;
+	}
+}
+
+.contact-option {
+	border: 1px solid #dee2e6!important;
+	margin-top: -1px;
+	padding: .75rem;
+	position: relative;
+}
+
+.card-body {
+	border-left: 1px solid #dee2e6;
+	border-right: 1px solid #dee2e6;
 }
 
 .contact-option button {
@@ -789,6 +800,28 @@ agm-map{
 .contact-option button:hover, .contact-option button:active, .contact-option button:focus {
 	color: #6A1B9A;
 	text-decoration: none;
+}
+
+.contact-option button {
+	padding: .375rem 2.5rem .375rem .75rem;
+}
+
+.contact-option-icon {
+	position: absolute;
+	right: 1.5rem;
+	top: 1.25rem;
+}
+
+.contact-option button .contact-option-icon i {
+	transform: rotate(180deg) translateY(.10rem);
+}
+
+.contact-option .collapsed .contact-option-icon i {
+	transform: rotate(0);
+}
+
+.collapse.show .card-body {
+	border-bottom:  1px solid #dee2e6;
 }
 
 /* FOOTER */
@@ -815,11 +848,31 @@ footer {
 	text-transform: uppercase;
 	letter-spacing: .09em;
 	color: #fff;
+	position: relative;
+	width: 220px;
+	margin: 0 auto 1rem;
+	cursor: pointer;
+}
+
+.sitemap-header.collapsed > .sitemap-header-icon {
+	transform: rotate(0deg);
+}
+
+.sitemap-header > .sitemap-header-icon {
+	transform: rotate(180deg);
+}
+
+.sitemap-header-icon {
+	position: absolute;
+	right: 0;
 }
 
 @media only screen and (min-width: 768px){
 	.sitemap-header {
 		pointer-events: none;
+		width: auto;
+		position: static;
+		margin: 0 0 1rem;
 	}
 }
 
