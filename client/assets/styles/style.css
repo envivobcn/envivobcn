@@ -276,7 +276,7 @@ a, a:hover {
 /* HOME */
 
 #intro{
-	background: url('../img/bcnenvivo-hero.JPG');
+	background: url('../img/envivobcn-hero.jpg');
 	background-size: cover;
 	background-position: center;
 }
@@ -755,14 +755,14 @@ agm-map{
 }
 
 #about-text h1 {
-		font-size: 2.5rem;
+		font-size: 1.8rem;
 		line-height: 1.15em;
 		margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 767px){
 	#about-text h1 {
-		font-size: 4rem;
+		font-size: 3.5rem;
 		margin-top: 1rem;
 		margin-bottom: 3rem;
 	}
