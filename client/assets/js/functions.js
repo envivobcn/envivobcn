@@ -10,3 +10,8 @@ $(document).on('click', '.navbar-toggler[aria-expanded="true"]', function(){
 	$('body').css({'height': 'initial', 'overflow': 'initial'});
 	$('#main').css('margin-top', '0');
 });
+
+$(document).on('click', '#districtList a, #musicGenresList a', function(){
+	$('.sitemap-header').addClass('collapsed');
+	$('#districtList, #musicGenresList').removeClass('show');
+});
