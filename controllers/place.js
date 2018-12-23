@@ -106,6 +106,7 @@ function savePlace(req, res){
 
 	var place = new Place();
 	var params = req.body;
+	console.log(params);
 
 	place.name = params.name;
 	place.description = params.description;
