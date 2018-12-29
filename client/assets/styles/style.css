@@ -754,14 +754,14 @@ agm-map{
 	font-size: 1.25rem;
 }
 
-#about-text h1 {
+#about-text h1, #cookies-notice h1 {
 		font-size: 1.8rem;
 		line-height: 1.15em;
 		margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 767px){
-	#about-text h1 {
+	#about-text h1, #cookies-notice h1  {
 		font-size: 3.5rem;
 		margin-top: 1rem;
 		margin-bottom: 3rem;
@@ -874,6 +874,33 @@ footer {
 		position: static;
 		margin: 0 0 1rem;
 	}
+}
+
+/* COOKIES */
+#cookies-notice h2 {
+	font-size: 1.25rem;
+}
+
+.cc-theme-classic {
+	box-shadow: rgba(0, 0, 0, 0.18) 0px -2px 8px 0px;
+	font-family: 'Karla', 'HelveticaNeueArabic', 'NeueHelveticaW01', 'Helvetica', 'HelveticaWorld', 'Roboto', 'Arial', sans-serif !important;
+	font-size: .9rem !important;
+}
+
+.cc-btn.cc-allow:focus, .cc-btn.cc-allow:hover {
+	background-color: #CC322F !important;
+	text-decoration: none !important;
+}
+
+.cc-revoke {
+	display: none !important;
+}
+
+.cc-window {
+	transition: opacity .2s !important;
+	-webkit-transition: opacity .2s !important;
+	-moz-transition: opacity .2s !important;
+	-ms-transition: opacity .2s !important;
 }
 
 /* OFF */

@@ -15,3 +15,8 @@ $(document).on('click', '#districtList a, #musicGenresList a', function(){
 	$('.sitemap-header').addClass('collapsed');
 	$('#districtList, #musicGenresList').removeClass('show');
 });
+
+/* $(document).on('click', 'a', function(){
+	document.cookie = "cookieconsent_status=allow";
+	$('.cc-banner').fadeOut(0);
+}); */
