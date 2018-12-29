@@ -294,7 +294,7 @@ a, a:hover {
 		font-size: 1.5rem;
 	}
 }
-				
+			
 @media only screen and (min-width: 768px){
 	#intro{
 		min-height: 420px;
@@ -903,6 +903,13 @@ footer {
 	-webkit-transition: opacity .2s !important;
 	-moz-transition: opacity .2s !important;
 	-ms-transition: opacity .2s !important;
+}
+
+.cc-revoke.cc-bottom {
+    bottom: 0;
+    left: 3em;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
 }
 
 /* OFF */
