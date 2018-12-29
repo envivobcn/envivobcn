@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <sitemap>
+      <loc>https://envivo.barcelona/sitemap-main.xml</loc>
+   </sitemap>
+   <sitemap>
+      <loc>https://envivo.barcelona/sitemap-landings.xml</loc>
+   </sitemap>
+   <sitemap>
+      <loc>https://envivo.barcelona/sitemap-places.xml</loc>
+   </sitemap>
+</sitemapindex>
