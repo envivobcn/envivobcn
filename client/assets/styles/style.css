@@ -298,6 +298,8 @@ a, a:hover {
 @media only screen and (min-width: 768px){
 	#intro{
 		min-height: 420px;
+    background-size: 130%;
+    background-position: right -30px;
 	}
 }
 
