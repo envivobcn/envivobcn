@@ -285,6 +285,10 @@ a, a:hover {
 	line-height: 1.1em;
 }
 
+.district-list #l-hospitalet-de-llobregat {
+	display: none !important;
+}
+
 @media only screen and (max-width: 767px){
 	h1 {
 		font-size: 2rem;
