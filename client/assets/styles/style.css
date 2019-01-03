@@ -506,10 +506,17 @@ a, a:hover {
 		transform: translateY(-10%);
 	}
 }
+#place-img-container {
+	position: relative;
+}
 
 .place-img-credit {
 	position: absolute;
 	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
 	width: 100%;
 	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,.7) 99%, rgba(0,0,0,0.4) 100%);
 	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,.7) 99%,rgba(0,0,0,0.4) 100%);
@@ -522,18 +529,26 @@ a, a:hover {
 	display: inline;
 	font-size: .75rem;
 	opacity: .6;
-	margin-right: -.25rem;
 }
 
 .place-img-credit a:hover, .place-img-credit a:focus {
 	text-decoration: none;
 }
 
-@media only screen and (min-width: 993px){
+@media only screen and (min-width: 992px){
+	.place-img-credit {
+		max-width: 960px;
+	}
 	.place-img-credit p, .place-img-credit a {
 		margin-right: 0;
 		font-size: .85rem;
 	}
+}
+
+@media only screen and (min-width: 1200px){
+	.place-img-credit {
+		max-width: 1110px;
+	}	
 }
 
 /* .programed-days:first-letter { text-transform: capitalize; } */
