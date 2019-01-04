@@ -594,6 +594,15 @@ a, a:hover {
 	text-decoration: none;
 }
 
+#place-hours-open i {
+	transform: rotate(180deg);
+}
+
+#place-hours-open.collapsed i {
+	transform: rotate(0) !important;
+}
+
+
 .music-genre-label {
 	border: 1px solid #6A1B9A;
 	padding: .25rem .5rem;
