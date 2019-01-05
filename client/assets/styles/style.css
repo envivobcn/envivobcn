@@ -144,6 +144,16 @@ a, a:hover {
   -webkit-padding-start: 0;
 }
 
+.leadp {
+	font-size: 1.15rem;
+}
+
+@media screen and (min-width: 768px){
+	.leadp {
+		font-size: 1.25rem;
+	}
+}
+
 /* COLORS */
 
 .gray {
@@ -686,16 +696,6 @@ agm-map{
 	background-position: center;
 }
 
-#place-list-artists-intro p {
-	font-size: 1.15rem;
-}
-
-@media screen and (min-width: 768px){
-	#place-list-artists-intro p {
-		font-size: 1.25rem;
-	}	
-}
-
 #artists-go-places {
 	border-radius: 100%;
 	border: 2px solid #fff;
@@ -851,10 +851,6 @@ agm-map{
 }
 
 /* ABOUT */
-
-#about-text p {
-	font-size: 1.25rem;
-}
 
 #about-text h1, #cookies-notice h1 {
 		font-size: 1.8rem;

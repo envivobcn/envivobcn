@@ -78,10 +78,7 @@ function placesFiltersMobPlaces() {
 	    }
 	    return false;
 	  });
-	}else{
-	  $('#places-filters-mob').fadeIn(0);
-	}	
+	}
 }
-
 
 
