@@ -11,10 +11,16 @@
 	  <loc>https://envivo.barcelona/es/lugares/almo2bar</loc>
 	</url>
 	<url>
+	  <loc>https://envivo.barcelona/es/lugares/big-bang-bar</loc>
+	</url>
+	<url>
 	  <loc>https://envivo.barcelona/es/lugares/bar-viu</loc>
 	</url>
 	<url>
 	  <loc>https://envivo.barcelona/es/lugares/bodegas-salto</loc>
+	</url>
+	<url>
+	  <loc>https://envivo.barcelona/es/lugares/cafe-ocana</loc>
 	</url>
 	<url>
 	  <loc>https://envivo.barcelona/es/lugares/casa-fuster</loc>
@@ -29,7 +35,13 @@
 	  <loc>https://envivo.barcelona/es/lugares/diobar</loc>
 	</url>
 	<url>
-	  <loc>https://envivo.barcelona/es/lugares/el-jardi-dels-tarongers</loc> <!-- revisar url real -->
+	  <loc>https://envivo.barcelona/es/lugares/el-col-leccionista</loc>
+	</url>
+	<url>
+	  <loc>https://envivo.barcelona/es/lugares/el-jardi-dels-tarongers</loc>
+	</url>
+	<url>
+	  <loc>https://envivo.barcelona/es/lugares/el-medi</loc>
 	</url>
 	<url>
 	  <loc>https://envivo.barcelona/es/lugares/el-paraigua</loc>
@@ -47,6 +59,9 @@
 	  <loc>https://envivo.barcelona/es/lugares/harlem-jazz</loc>
 	</url>
 	<url>
+	  <loc>https://envivo.barcelona/es/lugares/honkytonk-blues-bar</loc>
+	</url>
+	<url>
 	  <loc>https://envivo.barcelona/es/lugares/heliogabal</loc>
 	</url>
 	<url>
@@ -56,10 +71,16 @@
 	  <loc>https://envivo.barcelona/es/lugares/jazz-si</loc>
 	</url>
 	<url>
+	  <loc>https://envivo.barcelona/es/lugares/l-oncle-jack</loc>
+	</url>
+	<url>
 	  <loc>https://envivo.barcelona/es/lugares/la-carioca</loc>
 	</url>
 	<url>
 	  <loc>https://envivo.barcelona/es/lugares/la-iguana-cultura</loc>
+	</url>
+	<url>
+	  <loc>https://envivo.barcelona/es/lugares/la-garrafa-dels-beatles</loc>
 	</url>
 	<url>
 	  <loc>https://envivo.barcelona/es/lugares/la-rouge</loc>
@@ -68,13 +89,22 @@
 	  <loc>https://envivo.barcelona/es/lugares/la-sonora-de-gracia</loc>
 	</url>
 	<url>
+	  <loc>https://envivo.barcelona/es/lugares/lulu-barcelona</loc>
+	</url>
+	<url>
+	  <loc>https://envivo.barcelona/es/lugares/lute-bar</loc>
+	</url>
+	<url>
 	  <loc>https://envivo.barcelona/es/lugares/margarita-blue</loc>
 	</url>
 	<url>
 	  <loc>https://envivo.barcelona/es/lugares/marula-cafe</loc>
 	</url>
 	<url>
-	  <loc>https://envivo.barcelona/es/lugares/milano-cockatil-bar</loc> <!-- revisar url real -->
+	  <loc>https://envivo.barcelona/es/lugares/milano-cockatil-bar</loc>
+	</url>
+	<url>
+	  <loc>https://envivo.barcelona/es/lugares/olofson</loc>
 	</url>
 	<url>
 	  <loc>https://envivo.barcelona/es/lugares/sinestesia</loc>
